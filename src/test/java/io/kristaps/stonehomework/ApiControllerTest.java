@@ -19,10 +19,10 @@ import static org.mockito.BDDMockito.when;
 class ApiControllerTest {
 
     @Mock
-    apiService apiService;
+    ApiService apiService;
 
     @InjectMocks
-    apiController apiController;
+    ApiController apiController;
 
     TestObjects testObjects = new TestObjects();
 

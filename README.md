@@ -25,4 +25,4 @@ Example: <a href="http://localhost:8080/LV">http://localhost:8080/LV </a>
 Example: <a href="http://localhost:8080/availableCountries">http://localhost:8080/availableCountries </a>
 
 ## Request the next 7 upcoming public holidays
-Example: <a href="http://localhost:8080/NextPublicHolidays">http://localhost:8080/NextPublicHolidays </a>
+Example: <a href="http://localhost:8080/nextPublicHolidays">http://localhost:8080/nextPublicHolidays </a>

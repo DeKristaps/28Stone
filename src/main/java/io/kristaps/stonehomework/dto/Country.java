@@ -7,11 +7,11 @@ import java.util.Objects;
 
 public class Country implements Serializable {
 
-    String commonName;
-    String officialName;
-    String countryCode;
-    String region;
-    Country[] borders;
+    private String commonName;
+    private String officialName;
+    private String countryCode;
+    private String region;
+    private Country[] borders;
 
     public Country() {
     }

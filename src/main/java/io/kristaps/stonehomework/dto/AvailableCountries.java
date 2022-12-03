@@ -4,8 +4,8 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class AvailableCountries implements Serializable {
-    String countryCode;
-    String name;
+    private String countryCode;
+    private String name;
 
     public AvailableCountries() {
     }

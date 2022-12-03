@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class apiController {
-    private final apiService service;
+public class ApiController {
+    private final ApiService service;
 
-    public apiController(apiService service) {
+    public ApiController(ApiService service) {
         this.service = service;
     }
 
@@ -33,7 +33,7 @@ public class apiController {
         return this.service.getAvailableCountries();
     }
 
-    @GetMapping("/NextPublicHolidays")
+    @GetMapping("/nextPublicHolidays")
     public List<PublicHoliday> getNextPublicHolidays() {
         return this.service.getNextPublicHolidays();
     }

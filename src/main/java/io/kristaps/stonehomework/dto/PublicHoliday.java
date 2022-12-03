@@ -7,15 +7,15 @@ import java.util.Objects;
 
 public class PublicHoliday implements Serializable {
 
-    LocalDate date;
-    String localName;
-    String name;
-    String countryCode;
-    boolean fixed;
-    boolean global;
-    String[] counties;
-    Integer launchYear;
-    String[] types;
+    private LocalDate date;
+    private String localName;
+    private String name;
+    private String countryCode;
+    private boolean fixed;
+    private boolean global;
+    private String[] counties;
+    private Integer launchYear;
+    private String[] types;
 
     public PublicHoliday(LocalDate date, String localName, String name, String countryCode, boolean fixed, boolean global, String[] counties, Integer launchYear, String[] types) {
         this.date = date;
